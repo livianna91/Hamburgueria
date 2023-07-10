@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&family=Roboto:ital,wght@0,700;1,300;1,400;1,900&display=swap');
+
+/* Resetando o css */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+/* Modificando as cores padrões do site */
+body {
+  color: black;
+  background: white;
+}
+/* Fazendo o detalhe do hamburguer ao lado da logo */
+.menu .detalhe{
+  display: flex;
+  width: 28px;
+  height: 3px;
+  border-radius: 3px;
+  background: black;
+  margin: 5px auto;
+  transition: all 0.3s;
+}
+.menu .detalhe:nth-child(1),
+.menu .detalhe:nth-child(3)
+{
+  background: rgb(242, 140, 16); }
+
+/* Header */
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 40px;
+  box-shadow:  0 0.1rem 0.5rem #ccc;
+  width: 100%;
+  background-color: white;
+  transition: all 0.5s;
+}
+.navigation .logo {
+ display: block;
+ position: relative;
+ right: 280px;
+  color: black;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+.navigation {
+  background-color: rgb(255, 174, 0);
+
+}
+
+
+.navigation ul{
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+.navigation ul li a{
+  color: black;
+  font-size: 17px;
+  font-weight: 500;
+  transition: all 0.5s ;
+ }
+ .navigation ul li a:hover{
+color: rgb(255, 255, 255);
+ }
+
+ .navigation i {
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: all 0.5s;
+ }
+.conteudo .nav-menu li a {
+transition: all 0.5s;
+  }
+ .nav-menu li a:hover {
+    border-bottom: 3px solid white;
+  }
+
+
+ .home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10%;
+ }
+
+ .home-text {
+  max-width: 37rem;
+ }
+ .home-text .text-h4 {
+  font-size: 1.5rem;
+  color: rgb(255, 174, 0);
+  margin-bottom: 1rem;
+ }
+ .home-text .text-h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  line-height: 4rem;
+ }
+ .home-text p {
+  margin-bottom: 4rem;
+
+ }
+ .home-btn {
+  padding: 15px 45px;
+  background-color: rgb(255, 174, 0);
+  color: white;
+  border-radius: 10px;
+  font-weight: 500;
+  transition: all 0.5s;
+ }
+
+ .home-btn:hover {
+  background-color: rgb(0, 0, 0);
+ }
+ 
+ .home-img {
+  width: 100%;
+ }
